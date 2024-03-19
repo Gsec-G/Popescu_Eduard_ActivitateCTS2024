@@ -1,0 +1,67 @@
+A. Spital
+1. Atunci când un pacient este internat in cadrul aplicației se face salvarea acestuia. Fiecare pacient
+are posibilitatea sa plătească extra pentru anumite facilitate precum: pat rabatabil, mic dejun inclus,
+papuci de camera, halat pentru interior. In cazul in care pacientul nu alege aceste facilitați extra,
+in cadrul aplicației sunt setate cu false. Să se dezvolte modulul care asigură crearea de obiecte de
+tipul pacient cu opțiuni extra.
+2. În cadrul aplicației personalul spitalului este de mai multe tipuri. Acestea sunt salvate într-un
+enum { Brancardier, Asistent, Medic}. Să se implementeze modulul care pune la dispoziției
+crearea de obiecte din familia obiectelor PersonalSpital in funcție de tipul primit ca parametru.
+3. În cadrul aplicației personalul spitalului este de mai multe tipuri: Brancardier, Asistent, Medic.
+Să se implementeze modulul care pune la dispoziției crearea de obiecte din familia obiectelor
+PersonalSpital. Modulul trebuie realizat, astfel încât pentru adăugări de noi tipuri de personal să
+nu fie necesare modificări în codul existent.
+4. Spitalul are în dotare și un laborator în care mai mulți chimiști produc diferite rețete pentru
+medicamente. În momentul în care o rețetă este produsă trebuie ținut cont de cantitățile din soluțiile
+care sunt folosite. Dacă o rețetă este creată este recomandat să fie folosită pentru crearea viitoarelor
+medicamente fără a se trece prin procesul de creare al rețetei. Să se implementeze modulul care
+facilitează crearea de noi obiecte de rețete fără a fi nevoie de apelul constructorului.
+5. Spitalul deține un mic magazin pentru medicamente și au o aplicație pentru cumpărarea d
+medicamente pe baza de rețetă. Spitalul închei un contrat cu o farmacie specializată și dorește să
+integreze sistemul informatic al farmaciei cu sistemul software existent în micul magazin de
+medicamente. Dezvoltatorii farmaciei trebuie să integreze aceste două aplicații, astfel încât
+aplicația farmaciei să poate folosi obiectele de tip Medicament din aplicația spitalului. Clasa
+Medicament din aplicația spitalului are metodele achizitioneazaMedicament() și prezintaReteta().
+Metoda prezintaReteta() este apelată din achizitioneazaMedicament() pentru verificarea rețetei.
+Clasa Medicament din aplicația farmaciei are o singură metodă cumpărăMedicament() în care nu
+se face verificarea rețetei, deoarece farmacia o să vândă medicamente și fără rețetă.
+6. Pentru internarea unui pacient în spital trebuie verificată gravitatea stării pacientului prin
+intermediul clasei Pacient, verificarea confirmării Medicului că trebuie internat, verificarea
+disponibilității unui pat în cameră prin intermediul clasei Salon care are lista cu paturile libere si
+ocupate. Spitalul dorește ca personalul spitalului să nu fi nevoit să facă aceste verificări separat ci
+să fie dezvoltat un modul care să permită această verificarea facilă a acestor lucruri.
+7. Spitalul dorește să testeze punerea la dispoziție a rezultatelor prin intermediul platformei online
+ci nu doar printat. Există însă riscul să se revină la forma inițială de punere la dispoziția pacienților
+a rezultatelor. Se dorește adăugarea acestei noi funcționalități pentru sistemul software, care să
+permită revenirea la situația inițială.
+8. Este dorita reprezentarea departamentelor spitalului in cadrul aplicației. Fiecare departament
+conține subdepartamente sau secții. Secțiile nu conțin subsecții. Sa se implementeze modulul care
+permite reprezentarea arborescenta a departamentelor si secțiilor spitalului.
+9. Deoarece Spitalul este supraaglomerat se impune ca atunci când pacienții doresc internarea să
+fie internate doar personale care au asigurare de sănătate. Sa se realizeze un nivel intermediar care
+sa permită internarea doar acestor persoane.
+10. Pentru fiecare internare trebuie să se rețină informații cu privire la pacientul internat precum:
+nume, număr de telefon, adresă, etc, precum și informațiile despre salonul unde este internat:
+număr salon, număr pat, număr zile spitalizare, etc. Astfel, dacă un pacient este internat de mai
+multe ori de-a lungul timpului, informațiile despre acesta sunt aceleași și se repetă, ocupând foarte
+multă memorie. Să se implementeze modulul de memorare al tuturor internărilor astfel încât să nu
+ocupe memorie foarte multă.
+11. Este dorită implementarea modului de plată pentru pacienții care au fost internați în spital.
+Modul de plată îl decide persoana care plătește în momentul în care trebuie să facă plata. Plata se
+poate realiza cu cardul sau cash. Sa se implementeze modulul de plata.
+12. Spitalul dorește să anunțe toți pacienții care au fost în spital ori de câte ori apare vreo urgență
+cu privire la viruși existenți în oraș. Astfel se dorește implementarea unui modul care atunci când
+apare o epidemie sau un virus nou să se trimită notificări tuturor persoanelor abonate la notificările
+spitalului.
+13. Spitalul dorește implementarea unui modul pentru gestiunea pacienților. Un pacient poate să
+aibă una din următoarele stări: Internat, SubObservatie, Externat. Atunci când un pacient este
+adus în spital intră în starea Internat. Daca starea sa de sănătate este gravă, atunci este trecut în
+starea SubObservatie. Cand se vindeca si este trimis acasa, pacientul intra in starea Externat.
+14. Internarea unui pacient se face după următorii pași: Se analizează dificultatea stării pacientului,
+Se verifica disponibilitatea in saloanele spitalului, Se emite fisa de internare. Sa se implementeze
+modului care realizează in aplicație internarea pacienților după acest pattern.
+15. Managerul spitalului dorește sa grăbească procesul de la primiri urgente si astfel operatorul
+care primește pacienții la triaj va da comenzi de internare sau de tratare imediata pentru pacienții
+veniți si ii va așeza astfel la alte cozi separate. Comenzile sunt trimise către medici, însă operatorul
+poate primească alți pacienții mult mai rapid. Sa se implementeze modulul care permite trimiterea
+de comenzi către medici de la operatorul de primire.
