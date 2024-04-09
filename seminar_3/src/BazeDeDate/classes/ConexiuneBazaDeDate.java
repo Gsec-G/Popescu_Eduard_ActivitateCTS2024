@@ -20,6 +20,13 @@ public class ConexiuneBazaDeDate {
                 ", linkConexiune='" + linkConexiune + '\'' +
                 '}';
     }
+//    public String toString1() {
+//        return "ConexiuneBazaDeDate{" +
+//                "numeBaza='" + instanta.numeBaza + '\'' +
+//                ", nrTabele=" + instanta.nrTabele +
+//                ", linkConexiune='" + instanta.linkConexiune + '\'' +
+//                '}';
+//    } nu ebine , ia oricum proprietatile singletonului
     public static synchronized ConexiuneBazaDeDate getInstance(String numeBaza,
                                                                int nrTabele,
                                                                String linkConexiune) {

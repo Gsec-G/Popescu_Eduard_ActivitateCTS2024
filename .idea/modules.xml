@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/seminar_4_spital/seminar_4_spital.iml" filepath="$PROJECT_DIR$/seminar_4_spital/seminar_4_spital.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_5_builder_v2/seminar_5_builder_v2.iml" filepath="$PROJECT_DIR$/seminar_5_builder_v2/seminar_5_builder_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_5_exercitiul4/seminar_5_exercitiul4.iml" filepath="$PROJECT_DIR$/seminar_5_exercitiul4/seminar_5_exercitiul4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar_8_composite/seminar_8_composite.iml" filepath="$PROJECT_DIR$/seminar_8_composite/seminar_8_composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar_8_decorator/seminar_8_decorator.iml" filepath="$PROJECT_DIR$/seminar_8_decorator/seminar_8_decorator.iml" />
     </modules>
   </component>
 </project>
