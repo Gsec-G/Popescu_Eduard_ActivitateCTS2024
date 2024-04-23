@@ -17,5 +17,6 @@ public class Main {
         aplicatieMobila.afisareOnline();
         Decorator website = new WebSite(raceala);
         website.afisareOnline();
+
     }
 }
