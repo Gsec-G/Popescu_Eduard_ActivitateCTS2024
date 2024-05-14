@@ -11,5 +11,6 @@ public class Main {
 
         fabrica.getSpectator(10,10).deseneaza(caracteristici1);
         fabrica.getSpectator(20,10).deseneaza(caracteristici2);
+        fabrica.getSpectator(10,10).deseneaza(caracteristici1);
     }
 }

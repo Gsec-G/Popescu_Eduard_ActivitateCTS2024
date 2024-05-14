@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CTS_SEMINAR.iml" filepath="$PROJECT_DIR$/CTS_SEMINAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter_test/adapter_test.iml" filepath="$PROJECT_DIR$/adapter_test/adapter_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alt_observer_de_mine/alt_observer_de_mine.iml" filepath="$PROJECT_DIR$/alt_observer_de_mine/alt_observer_de_mine.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_5/builder.iml" filepath="$PROJECT_DIR$/seminar_5/builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator_exercitiu/decorator_exercitiu.iml" filepath="$PROJECT_DIR$/decorator_exercitiu/decorator_exercitiu.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem10_observer/sem10_observer.iml" filepath="$PROJECT_DIR$/sem10_observer/sem10_observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem9_flyweight/sem9_flyweight.iml" filepath="$PROJECT_DIR$/sem9_flyweight/sem9_flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem9_proxy/sem9_proxy.iml" filepath="$PROJECT_DIR$/sem9_proxy/sem9_proxy.iml" />
@@ -16,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/seminar_5_exercitiul4/seminar_5_exercitiul4.iml" filepath="$PROJECT_DIR$/seminar_5_exercitiul4/seminar_5_exercitiul4.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_8_composite/seminar_8_composite.iml" filepath="$PROJECT_DIR$/seminar_8_composite/seminar_8_composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_8_decorator/seminar_8_decorator.iml" filepath="$PROJECT_DIR$/seminar_8_decorator/seminar_8_decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategie_exercitiu/strategie_exercitiu.iml" filepath="$PROJECT_DIR$/strategie_exercitiu/strategie_exercitiu.iml" />
     </modules>
   </component>
 </project>

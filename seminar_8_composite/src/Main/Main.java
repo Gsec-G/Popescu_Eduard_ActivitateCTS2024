@@ -22,5 +22,7 @@ public class Main {
         spital.adaugaStructura(cardiologie);
 
         spital.afiseazaDescriere("  ");
+        cardiologie.stergeStructura(terapieIntensiva);
+        spital.afiseazaDescriere("  ");
     }
 }
