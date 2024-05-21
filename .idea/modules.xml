@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/sem9_flyweight/sem9_flyweight.iml" filepath="$PROJECT_DIR$/sem9_flyweight/sem9_flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem9_proxy/sem9_proxy.iml" filepath="$PROJECT_DIR$/sem9_proxy/sem9_proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar10_strategy/seminar10_strategy.iml" filepath="$PROJECT_DIR$/seminar10_strategy/seminar10_strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar13/seminar13.iml" filepath="$PROJECT_DIR$/seminar13/seminar13.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_2/seminar_2.iml" filepath="$PROJECT_DIR$/seminar_2/seminar_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_3/seminar_3_singleton.iml" filepath="$PROJECT_DIR$/seminar_3/seminar_3_singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar_4_FactoryMethod/seminar_4_FactoryMethod.iml" filepath="$PROJECT_DIR$/seminar_4_FactoryMethod/seminar_4_FactoryMethod.iml" />
